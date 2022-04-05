@@ -1,0 +1,58 @@
+body {
+  margin: 5vw 10vw 0px 10vw;
+  background-color: #A64AC9;
+  color: #FCCD04;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+
+#title{
+  display: flex;
+  justify-content: center;
+}
+
+#subtitle{
+  display: flex;
+  justify-content: center;
+}
+
+#myName{
+  font-size: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+#nameButton{
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.names{
+  display: flex;
+  justify-content: space-between;
+}
+
+.result{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hands{
+  display: flex;
+  justify-content: space-between;
+}
+
+#rockButton, #scissorButton, #paperButton{
+  font-size: 4rem;
+  padding: 0;
+  border: none;
+  background: none;
+}
